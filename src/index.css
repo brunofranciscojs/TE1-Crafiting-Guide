@@ -14,36 +14,34 @@ section{
     clip-path: 
       path( 
         "M0 0 H1200 V1400 H0 Z M20 30 a6 6 0 1 0 0.01 0 M20 70 a6 6 0 1 0 0.01 0 M20 110 a6 6 0 1 0 0.01 0 M20 150 a6 6 0 1 0 0.01 0 M20 190 a6 6 0 1 0 0.01 0 M20 230 a6 6 0 1 0 0.01 0 M20 270 a6 6 0 1 0 0.01 0 M20 310 a6 6 0 1 0 0.01 0 M20 350 a6 6 0 1 0 0.01 0 M20 390 a6 6 0 1 0 0.01 0 M20 430 a6 6 0 1 0 0.01 0 M20 470 a6 6 0 1 0 0.01 0" );
+  
+  @media screen and (max-width:1024px){
+      clip-path: 
+      path( 
+        "M0 0 H1200 V1400 H0 Z M30 470 a6 6 0 1 0 0.01 0 M70 470 a6 6 0 1 0 0.01 0 M110 470 a6 6 0 1 0 0.01 0 M150 470 a6 6 0 1 0 0.01 0 M190 470 a6 6 0 1 0 0.01 0 M230 470 a6 6 0 1 0 0.01 0 M270 470 a6 6 0 1 0 0.01 0 M310 470 a6 6 0 1 0 0.01 0 M350 470 a6 6 0 1 0 0.01 0 M390 470 a6 6 0 1 0 0.01 0 M430 470 a6 6 0 1 0 0.01 0 M470 470 a6 6 0 1 0 0.01 0 M510 470 a6 6 0 1 0 0.01 0 M550 470 a6 6 0 1 0 0.01 0 M590 470 a6 6 0 1 0 0.01 0 M630 470 a6 6 0 1 0 0.01 0 M670 470 a6 6 0 1 0 0.01 0" );
+  }
   }
 }
 .aside{
   button{
-    @apply shadow-[0_0_0_2px_#0008] text-white border px-5 py-1 border-black rounded-lg bg-[#40478f] duration-200 transition-all border-t-white/45 border-r-white/45 cursor-pointer hover:bg-[#1e2144];
+    @apply shadow-[0_0_0_2px_#0008] text-white border px-5 py-1 border-black rounded-lg bg-[#40478f] duration-200 transition-all border-t-white/45 border-r-white/45 cursor-pointer hover:bg-[#1e2144] text-nowrap;
   }
   clip-path: 
       path( 
-        "M0 0 H1200 V1400 H0 Z M205 30 a6 6 0 1 0 0.01 0 M205 70 a6 6 0 1 0 0.01 0 M205 110 a6 6 0 1 0 0.01 0 M205 150 a6 6 0 1 0 0.01 0 M205 190 a6 6 0 1 0 0.01 0 M205 230 a6 6 0 1 0 0.01 0 M205 270 a6 6 0 1 0 0.01 0 M205 310 a6 6 0 1 0 0.01 0 M205 350 a6 6 0 1 0 0.01 0 M205 390 a6 6 0 1 0 0.01 0 M205 430 a6 6 0 1 0 0.01 0 M205 470 a6 6 0 1 0 0.01 0" );
+        "M0 0 H1200 V1400 H0 Z M268 30 a6 6 0 1 0 0.01 0 M268 70 a6 6 0 1 0 0.01 0 M268 110 a6 6 0 1 0 0.01 0 M268 150 a6 6 0 1 0 0.01 0 M268 190 a6 6 0 1 0 0.01 0 M268 230 a6 6 0 1 0 0.01 0 M268 270 a6 6 0 1 0 0.01 0 M268 310 a6 6 0 1 0 0.01 0 M268 350 a6 6 0 1 0 0.01 0 M268 390 a6 6 0 1 0 0.01 0 M268 430 a6 6 0 1 0 0.01 0 M268 470 a6 6 0 1 0 0.01 0" );
+
+  @media screen and (max-width:1024px){
+      clip-path: 
+      path( 
+        "M0 0 H1200 V1400 H0 Z M30 5 a6 6 0 1 0 0.01 0 M70 5 a6 6 0 1 0 0.01 0 M110 5 a6 6 0 1 0 0.01 0 M150 5 a6 6 0 1 0 0.01 0 M190 5 a6 6 0 1 0 0.01 0 M230 5 a6 6 0 1 0 0.01 0 M270 5 a6 6 0 1 0 0.01 0 M310 5 a6 6 0 1 0 0.01 0 M350 5 a6 6 0 1 0 0.01 0 M390 5 a6 6 0 1 0 0.01 0 M430 5 a6 6 0 1 0 0.01 0 M470 5 a6 6 0 1 0 0.01 0 M510 5 a6 6 0 1 0 0.01 0 M550 5 a6 6 0 1 0 0.01 0 M590 5 a6 6 0 1 0 0.01 0 M630 5 a6 6 0 1 0 0.01 0 M670 5 a6 6 0 1 0 0.01 0" );
+  }
 }
+
 
 ol{
   li{
-    @apply max-h-10 leading-[.415] indent-1 text-[6rem] bg-clip-text text-transparent bg-[radial-gradient(circle,#8d8286_10%,#49413e_100%,#8d8286_100%)] bg-center relative;
+    @apply max-h-10 max-w-14 leading-[.415] indent-1 text-[6rem] bg-clip-text text-transparent bg-[radial-gradient(circle,#8d8286_10%,#49413e_100%,#8d8286_100%)] bg-center relative;
     -webkit-box-reflect:below 0px linear-gradient(to bottom, #0000, #0009);
-    &:after{
-        content:')';
-        color:white;
-        position:absolute;
-        left:1.8rem;
-        top:.5rem;
-        width:10px;
-        height:10px;
-        border-radius:20px;
-        font-size:10px;
-        rotate:-90deg;
-        filter:blur(1px);
-        mask-image:linear-gradient(to top,transparent 0%,black,black,transparent 80%);
-        
-    }
   }
 }
   button.active{

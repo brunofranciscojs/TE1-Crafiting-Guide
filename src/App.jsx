@@ -29,13 +29,13 @@ function App() {
   const tabs = { Tools, Weapons, Miscellaneous, C_Devices }
 
   return (
-    <main className='h-dvh w-screen bg-cover bg-center flex flex-row justify-center items-center'>
+    <main className='h-dvh w-screen bg-cover bg-center flex lg:flex-row flex-col-reverse justify-center items-center'>
 
       <code className={`w-screen h-full absolute left-1/2 top-1/2 [translate:-50%_-50%] z-1 pointer-none brightness-50 bg-cover! bg-no-repeat!`} style={{background:`url(./src/assets/bg-${bg}.avif)`}}></code>
 
       <SideBar setBg={setBg}/>
 
-      <ol className=' flex flex-col z-999 gap-0 p-0 translate-y-1 -mx-7 saturate-200'>
+      <ol className='flex lg:flex-col flex-row z-999 gap-0 p-0 mx-[unset] lg:-mx-7 saturate-200 [&_li]:-mr-4 lg:[&_li]:mr-0 [&_li]:rotate-90 lg:[&_li]:rotate-0 lg:translate-y-1 -translate-y-7 translate-x-3 lg:-translate-x-1'>
         <li>o</li>
         <li>o</li>
         <li>o</li>
@@ -48,9 +48,15 @@ function App() {
         <li>o</li>
         <li>o</li>
         <li>o</li>
+
+        <li className='flex lg:hidden'>o</li>
+        <li className='flex lg:hidden'>o</li>
+        <li className='flex lg:hidden'>o</li>
+        <li className='flex lg:hidden'>o</li>
+        <li className='flex lg:hidden'>o</li>
       </ol>
 
-      <div className='h-dvh bg-cover bg-center flex flex-col justify-center items-center w-full max-w-[700px]!'>
+      <div className='h-dvh bg-cover bg-center flex flex-col lg:justify-center justify-end items-center w-full max-w-[700px]'>
 
         <nav className='realtive z-40'>
           <ul className='flex justify-center'>
